@@ -22,14 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		497F9364177371D6005B8A3C /* WWDC2013ScrollViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC2013ScrollViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		497F9364177371D6005B8A3C /* CustomNestedScrollViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNestedScrollViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		497F9367177371D6005B8A3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		497F9369177371D6005B8A3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		497F936B177371D6005B8A3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		497F936F177371D6005B8A3C /* WWDC2013ScrollViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WWDC2013ScrollViews-Info.plist"; sourceTree = "<group>"; };
+		497F936F177371D6005B8A3C /* CustomNestedScrollViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomNestedScrollViews-Info.plist"; sourceTree = "<group>"; };
 		497F9371177371D6005B8A3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		497F9373177371D6005B8A3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		497F9375177371D6005B8A3C /* WWDC2013ScrollViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WWDC2013ScrollViews-Prefix.pch"; sourceTree = "<group>"; };
+		497F9375177371D6005B8A3C /* CustomNestedScrollViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomNestedScrollViews-Prefix.pch"; sourceTree = "<group>"; };
 		497F9376177371D6005B8A3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		497F9377177371D6005B8A3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		497F9379177371D6005B8A3C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		497F9365177371D6005B8A3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				497F9364177371D6005B8A3C /* WWDC2013ScrollViews.app */,
+				497F9364177371D6005B8A3C /* CustomNestedScrollViews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +101,10 @@
 		497F936E177371D6005B8A3C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				497F936F177371D6005B8A3C /* WWDC2013ScrollViews-Info.plist */,
+				497F936F177371D6005B8A3C /* CustomNestedScrollViews-Info.plist */,
 				497F9370177371D6005B8A3C /* InfoPlist.strings */,
 				497F9373177371D6005B8A3C /* main.m */,
-				497F9375177371D6005B8A3C /* WWDC2013ScrollViews-Prefix.pch */,
+				497F9375177371D6005B8A3C /* CustomNestedScrollViews-Prefix.pch */,
 				497F9379177371D6005B8A3C /* Default.png */,
 				497F937B177371D6005B8A3C /* Default@2x.png */,
 				497F937D177371D6005B8A3C /* Default-568h@2x.png */,
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		497F9363177371D6005B8A3C /* WWDC2013ScrollViews */ = {
+		497F9363177371D6005B8A3C /* CustomNestedScrollViews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 497F9381177371D6005B8A3C /* Build configuration list for PBXNativeTarget "WWDC2013ScrollViews" */;
+			buildConfigurationList = 497F9381177371D6005B8A3C /* Build configuration list for PBXNativeTarget "CustomNestedScrollViews" */;
 			buildPhases = (
 				497F9360177371D6005B8A3C /* Sources */,
 				497F9361177371D6005B8A3C /* Frameworks */,
@@ -127,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = WWDC2013ScrollViews;
+			name = CustomNestedScrollViews;
 			productName = iOS7ScrollViews;
-			productReference = 497F9364177371D6005B8A3C /* WWDC2013ScrollViews.app */;
+			productReference = 497F9364177371D6005B8A3C /* CustomNestedScrollViews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Pierre Felgines";
 			};
-			buildConfigurationList = 497F935F177371D6005B8A3C /* Build configuration list for PBXProject "WWDC2013ScrollViews" */;
+			buildConfigurationList = 497F935F177371D6005B8A3C /* Build configuration list for PBXProject "CustomNestedScrollViews" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -154,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				497F9363177371D6005B8A3C /* WWDC2013ScrollViews */,
+				497F9363177371D6005B8A3C /* CustomNestedScrollViews */,
 			);
 		};
 /* End PBXProject section */
@@ -258,9 +258,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS7ScrollViews/WWDC2013ScrollViews-Prefix.pch";
-				INFOPLIST_FILE = "iOS7ScrollViews/WWDC2013ScrollViews-Info.plist";
-				PRODUCT_NAME = WWDC2013ScrollViews;
+				GCC_PREFIX_HEADER = "iOS7ScrollViews/CustomNestedScrollViews-Prefix.pch";
+				INFOPLIST_FILE = "iOS7ScrollViews/CustomNestedScrollViews-Info.plist";
+				PRODUCT_NAME = CustomNestedScrollViews;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -269,9 +269,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iOS7ScrollViews/WWDC2013ScrollViews-Prefix.pch";
-				INFOPLIST_FILE = "iOS7ScrollViews/WWDC2013ScrollViews-Info.plist";
-				PRODUCT_NAME = WWDC2013ScrollViews;
+				GCC_PREFIX_HEADER = "iOS7ScrollViews/CustomNestedScrollViews-Prefix.pch";
+				INFOPLIST_FILE = "iOS7ScrollViews/CustomNestedScrollViews-Info.plist";
+				PRODUCT_NAME = CustomNestedScrollViews;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -279,7 +279,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		497F935F177371D6005B8A3C /* Build configuration list for PBXProject "WWDC2013ScrollViews" */ = {
+		497F935F177371D6005B8A3C /* Build configuration list for PBXProject "CustomNestedScrollViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				497F937F177371D6005B8A3C /* Debug */,
@@ -288,7 +288,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		497F9381177371D6005B8A3C /* Build configuration list for PBXNativeTarget "WWDC2013ScrollViews" */ = {
+		497F9381177371D6005B8A3C /* Build configuration list for PBXNativeTarget "CustomNestedScrollViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				497F9382177371D6005B8A3C /* Debug */,

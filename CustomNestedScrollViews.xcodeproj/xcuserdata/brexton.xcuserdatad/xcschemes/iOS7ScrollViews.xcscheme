@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "497F9363177371D6005B8A3C"
                BuildableName = "WWDC2013ScrollViews.app"
-               BlueprintName = "WWDC2013ScrollViews"
-               ReferencedContainer = "container:WWDC2013ScrollViews.xcodeproj">
+               BlueprintName = "CustomNestedScrollViews"
+               ReferencedContainer = "container:CustomNestedScrollViews.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "497F9363177371D6005B8A3C"
             BuildableName = "WWDC2013ScrollViews.app"
-            BlueprintName = "WWDC2013ScrollViews"
-            ReferencedContainer = "container:WWDC2013ScrollViews.xcodeproj">
+            BlueprintName = "CustomNestedScrollViews"
+            ReferencedContainer = "container:CustomNestedScrollViews.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -54,8 +54,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "497F9363177371D6005B8A3C"
             BuildableName = "WWDC2013ScrollViews.app"
-            BlueprintName = "WWDC2013ScrollViews"
-            ReferencedContainer = "container:WWDC2013ScrollViews.xcodeproj">
+            BlueprintName = "CustomNestedScrollViews"
+            ReferencedContainer = "container:CustomNestedScrollViews.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -73,8 +73,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "497F9363177371D6005B8A3C"
             BuildableName = "WWDC2013ScrollViews.app"
-            BlueprintName = "WWDC2013ScrollViews"
-            ReferencedContainer = "container:WWDC2013ScrollViews.xcodeproj">
+            BlueprintName = "CustomNestedScrollViews"
+            ReferencedContainer = "container:CustomNestedScrollViews.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

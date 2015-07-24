@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  WWDC2013ScrollViews
+//  CustomNestedScrollViews
 //
 //  Created by Brexton Pham on 07/24/2015.
 //  Copyright (c) 2015 Brexton Pham. All rights reserved.
