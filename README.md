@@ -1,4 +1,4 @@
-WWDC2013ScrollViews
+CustomNestedScrollViews
 ===============
 
 Recreated custom scrollviews structure used in Snapchat messaging and the WWDC2013 ScrollView presentation. Created in obj-c and implemented using nested scrollviews
