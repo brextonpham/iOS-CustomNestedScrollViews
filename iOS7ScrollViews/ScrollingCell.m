@@ -8,11 +8,11 @@
 
 #import "ScrollingCell.h"
 
-#define PULL_THRESHOLD 120
+#define PULL_THRESHOLD 100
 
 @interface ScrollingCell () {
     UIScrollView * _scrollView;
-    UIView * _colorView;
+    UIImageView * _imageView;
     
     BOOL _pulling;
     BOOL _deceleratingBackToZero;
@@ -94,13 +94,13 @@
 - (void)dealloc {
     [_color release];
     [_scrollView release];
-    [_colorView retain];
+    [_imageView retain];
 }
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        _colorView = [[UIView alloc] init];
+        _imageView = [[UIImageView alloc] init];
         
         _scrollView = [[UIScrollView alloc] init];
         _scrollView.delegate = self;
@@ -110,8 +110,8 @@
         [self.contentView addSubview:_scrollView];
         [_scrollView release];
         
-        [_scrollView addSubview:_colorView];
-        [_colorView release];
+        [_scrollView addSubview:_imageView];
+        [_imageView release];
     }
     return self;
 }
@@ -121,7 +121,10 @@
         [_color release];
         _color = [color retain];
     }
-    _colorView.backgroundColor = color;
+    UIImage *image = [UIImage imageNamed:@"yakScreenshot4.png"];
+    //_imageView.backgroundColor = color;
+    [_imageView setImage:image];
+    //_imageView.contentMode = UIViewContentModeScaleAspectFit;
 }
 
 - (void)layoutSubviews {
@@ -132,7 +135,7 @@
     _scrollView.frame = CGRectMake(0, 0, pageWidth, bounds.size.height);
     _scrollView.contentSize = CGSizeMake(pageWidth * 2, bounds.size.height);
     
-    _colorView.frame = [_scrollView convertRect:bounds fromView:contentView];
+    _imageView.frame = [_scrollView convertRect:bounds fromView:contentView];
 }
 
 @end
